@@ -1,4 +1,6 @@
-# Example of how to run e2e and unit tests on serverless apps using LocalStack and Jest
+**Tags**: #Docker #Git #GitHubActions #JavaScript #Markdown #Node #Tests #jest
+
+#ServerlessTesting # Example of how to run e2e and unit tests on serverless apps using LocalStack and Jest
 [![Build Status](https://github.com/ErickWendel/testing-serverless-apps/workflows/Docker%20Actions/badge.svg)](https://github.com/ErickWendel/testing-serverless-apps/actions)
 
 Code samples of my video on [testing serverless applications](https://youtu.be/rwyhw9UYHkA). 
