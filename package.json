@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "postinstall": "echo '\\x1b[32mNão esquece de deixar o star⭐️ no projeto em!\\x1b[0m'",
+    "postinstall": "echo '\\x1b[32mN\u00e3o esquece de deixar o star\u2b50\ufe0f no projeto em!\\x1b[0m'",
     "start": "npm run offline",
     "offline": "npx sls offline start --host 0.0.0.0",
     "test": "npm run test:unit && npm run test:e2e",
@@ -14,7 +14,16 @@
     "test:unit": "IS_OFFLINE=true node --experimental-vm-modules ./node_modules/.bin/jest --runInBand test/unit",
     "test:watch": "IS_OFFLINE=true node --experimental-vm-modules ./node_modules/.bin/jest --runInBand --watchAll"
   },
-  "keywords": [],
+  "keywords": [
+    "docker",
+    "git",
+    "githubactions",
+    "javascript",
+    "jest",
+    "markdown",
+    "node",
+    "tests"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
